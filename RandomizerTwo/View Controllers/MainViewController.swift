@@ -8,12 +8,18 @@
 import UIKit
 
 class MainViewController: UIViewController {
-
+    
+    @IBOutlet weak var minimumValueLabel: UILabel!
+    @IBOutlet weak var maximumValueLabel: UILabel!
+    @IBOutlet weak var randomNumberLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+       
     }
 
-
+    @IBAction func getRandomButtonPressed(_ sender: UIButton) {
+    }
+    
 }
 
